@@ -1,0 +1,25 @@
+type Query {
+    categoryProductlist (
+        categoryId: Int
+        pageSize: Int
+        currentPage: Int
+    ) : CategoryProductList @doc(description: "Get CategoryProductList")
+    @resolver(class: "Adobe\\CustomGraphQl\\Model\\Resolver\\ProductsCollection")
+    @cache(cacheIdentity: "Adobe\\CustomGraphQl\\Model\\Resolver\\Block\\CustomCategoryIdentity")
+}
+
+type CategoryProductList {
+    totalCount: Int
+    category_product_list: [CategoryProductListItems]
+}
+
+type CategoryProductListItems {
+    entity_id: Int
+    type_id: String
+    sku: String
+    name: String
+    image: String
+    status: String
+    visibility: String
+    price: String
+}
