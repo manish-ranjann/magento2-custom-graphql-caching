@@ -1,5 +1,5 @@
 {
-    "name": "adobe/module-customgraphql",
+    "name": "dev/module-customgraphql",
     "description": "Graphql Caching In Magento 2",
     "type": "magento2-module",
     "license": "GPL-3.0",
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Adobe\\Shopfinder\\": ""
+            "Dev\\Shopfinder\\": ""
         }
     }
 }

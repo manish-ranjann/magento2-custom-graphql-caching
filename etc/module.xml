@@ -5,15 +5,15 @@
  *
  * PHP version 7.0+
  *
- * @category  Adobe
- * @package   Adobe_CustomGraphQl
+ * @category  Magneto Module
+ * @package   Dev_CustomGraphQl
  * @author    Manish Ranjan <manish.ranjan@outlook.in>
  * @copyright Manish Ranjan
  * @license   ASL Licence
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Adobe_CustomGraphQl" setup_version="1.0.0">
+    <module name="Dev_CustomGraphQl" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Catalog"/>
             <module name="Magento_GraphQl"/>

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Adobe\CustomGraphQl\Model\Resolver;
+namespace Dev\CustomGraphQl\Model\Resolver;
 
 use Magento\Catalog\Model\CategoryFactory;
 use Magento\Framework\GraphQl\Config\Element\Field;

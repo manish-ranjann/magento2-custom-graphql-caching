@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Adobe\CustomGraphQl\Model\Resolver\Block;
+namespace Dev\CustomGraphQl\Model\Resolver\Block;
 
 use Magento\Framework\GraphQl\Query\Resolver\IdentityInterface;
 

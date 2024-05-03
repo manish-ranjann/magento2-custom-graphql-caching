@@ -4,8 +4,8 @@ type Query {
         pageSize: Int
         currentPage: Int
     ) : CategoryProductList @doc(description: "Get CategoryProductList")
-    @resolver(class: "Adobe\\CustomGraphQl\\Model\\Resolver\\ProductsCollection")
-    @cache(cacheIdentity: "Adobe\\CustomGraphQl\\Model\\Resolver\\Block\\CustomCategoryIdentity")
+    @resolver(class: "Dev\\CustomGraphQl\\Model\\Resolver\\ProductsCollection")
+    @cache(cacheIdentity: "Dev\\CustomGraphQl\\Model\\Resolver\\Block\\CustomCategoryIdentity")
 }
 
 type CategoryProductList {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Adobe\CustomGraphQl\Observer;
+namespace Dev\CustomGraphQl\Observer;
 
 use Magento\Framework\Event\ObserverInterface;
 use Zend_Cache;
